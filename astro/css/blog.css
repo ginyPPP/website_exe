@@ -32,14 +32,6 @@
   margin-top:24px;
 }
 
-.menu{
-
-}
-
-.menu-list{
-
-}
-
 .menu-list-item{
   float:left;
   margin-top:32px;
@@ -144,6 +136,7 @@
 .paragraph{
   font-size:14px;
   line-height:1.2;
+  color:#637988;
 }
 .dark{
   color:#2c4755;
@@ -163,6 +156,18 @@
   height:auto;
 }
 
+.blue-title{
+  color:#00c7fc;
+  font-size:20px;
+  margin-bottom:25px;
+}
+
+.blue-list-item{
+  color:#637988;
+  margin-bottom:20px;
+}
+
+
 /*¿µ¿ªº° CSS*/
 
 .section1{
@@ -174,14 +179,34 @@
   margin-top:24px;
 }
 
-.blog{
-  width:702px;
-  height:272px;
-  overflow:hidden;
+.section2{
+  content:"";
+  display:block;
+  clear:both;
 }
 
-.blog-image{
+.section2:after{
+  content:"";
+  display:block;
+  clear:both;
+}
 
+.inner-box-left{
+  width:700px;
+  float:left;
+}
+
+.inner-box-right{
+  width:220px;
+  float:right;
+  top:0;
+  text-align: left;
+}
+
+.blog{
+  width:700px;
+  height:272px;
+  overflow:hidden;
 }
 
 .blog-text-wrap{
@@ -193,17 +218,9 @@
   margin:26px 0 15px;
 }
 
-.detail-date{
-
-}
-
-.detail-date-list{
-  width:702px;
-}
-
 .detail-date-list-item1{
   float:left;
-  margin-right: 47px;
+  margin-right:47px;
 }
 .detail-date-list-item1:before{
   content: "";
@@ -244,49 +261,36 @@
   top: 2px;
 }
 
-.blog-text-wrap .paragraph{
-  width: 675px;
-  height: 53px;
-
-
+.detail-date-paragraph{
+  font-size:14px;
+  padding-top:28px;
+  margin-bottom:30px;
 }
 
+.btn-detail-date{
+  width:128px;
+  height:35px;
+  margin-bottom:38px;
+  border-radius:5px;
+  background:#00c7fc;
+  border:0;
+  color:#fff;
+}
 
+.search{
+  margin-bottom:66px;
+}
 
+.search-input{
+  width:220px;
+  height:35px;
+  border-radius: 5px;
+  border:1px solid #cfd9e0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.categorise{
+  margin-bottom:60px;
+}
 
 .footer{
   height:378px;
